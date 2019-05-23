@@ -1,7 +1,7 @@
 # Deep\_Q\_Learning
 ## 大致介绍
 这个项目的来源是前不久的两篇论文，Playing Atari with Deep Reinforcement Learning，和DeepMind-DQN-nature。论文中，作者使用强化学习的方法让人工智能学会了打游戏，包括atria中的多款游戏。有部分的游戏效果很好，也有部分的效果不好，这个代码的用处就是复现了一下使用CNN和强化学习来训练agent来玩太空入侵者这款游戏。
-![](./img/dqn.gif)
+![](https://github.com/gwyxjtu/Deep_Q_Learning/blob/master/img/dqn.gif)
 ## 前期的准备工作
 ### 安装gym
 首先得安装gym中的atari部分，如果有错误，可以参考我之前写的博客
@@ -84,7 +84,7 @@ $$L_i(\theta _i)= \mathbb{E}_{s,a}[(y_i-Q(s,a;\theta_i))^2]$$
 其中$y_i$就是第i轮迭代的目标真实值，之后进行随机梯度下降函数进行优化。
 
 ## 详细的思路（画一个流程图）
-![](./img/CNN.png)
+![](https://github.com/gwyxjtu/Deep_Q_Learning/blob/master/img/CNN.PNG)
 ## 代码讲解
 之前写过一篇博客讲解相关的代码，具体可以参考
 
